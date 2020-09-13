@@ -1,18 +1,14 @@
 body{
-	background: gray;
+	background: linear-gradient(45deg, #27dbe9, #e3e67d);
 	height: 100vh
 }
 
 .form-box{
-	width: 500px;
+	width: 600px;
 	margin: auto;
-	background-color: white;
-	border-radius: 100px;
-	padding: 77px 40px
-}
-
-.form-box h3{
-	color: gray
+	background-color: rgba(255,255,255,0.4);
+	border-radius: 10px;
+	padding: 55px 60px
 }
 .form-box{
 	text-align: center;
@@ -20,35 +16,27 @@ body{
 
 .form-box h2{
 	text-align: center;
-	font-weight: 900;
+	text-transform: uppercase;
+	font-weight: 900
 	margin-bottom: 40px;
-	text
 }
 
 .form-box form input{
 	width: 300px;
     margin-bottom: 40px;
-    border-radius: 20px;
+    border-radius: 5px;
     padding: 10px 15px
 
 }
 .btn{
-	background: #27dbe9;
+	background: linear-gradient(45deg, #27dbe9, #e3e67d);
 	color: white;
 	width:!important;
 	cursor: pointer;
 }
 
-.class a{
-	margin-bottom: 10px
-}
 
-.social-icon ul li{
-	list-style: none;
-	display: inline-block;
-	font-size: 22px;
-	text-align: center;
-}
-.social-icon ul li a:hover{
-	color: red
-}
+
+
+
+
